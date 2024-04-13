@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary_color : #f4ebd9;
+    --secondary_color : #058ed9;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px
+}
+.box{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(32, 146, 146, 0.644);
+    border: 0;
+    outline: 0;
+}
+.btn_container{
+    margin-bottom: 4px;
+}
+
+button{
+    font-size: 30px;
+    color: red;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+}
+#msg{
+    font-size: 20px;
+    color: red;
+}
+
+#reset{
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    outline: none;
+
+}
